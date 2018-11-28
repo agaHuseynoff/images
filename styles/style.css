@@ -1,0 +1,116 @@
+body {
+	font-size: 18px;
+}
+
+#container {
+	font-family: 'SEGOE UI';
+	font-weight: 500;
+	padding: 50px 100px;
+}
+
+main {
+	padding: 25px 50px;
+}
+
+header h1 {
+	font-size: 28px;
+	color: aqua;
+}
+
+.center {
+	text-align: center;
+}
+
+.place-questions {
+	width: 750px;
+	margin: auto;
+	height: auto;
+	padding: 25px;
+}
+
+.questions li {
+	margin: 50px 0;
+	background-color: #fff;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.questions li:hover {
+	background-color: #E0E0E0;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.questions li .img-cont {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.questions li .img-cont img {
+	width: 100px;
+	height: 80px;
+}
+
+.questions .answer {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 100px;
+
+}
+
+.questions .answer span {
+	margin: 0 25px;
+	cursor: pointer;
+	color: #666;
+	font-size: 20px;
+	border-radius: 50%;
+	padding: 5px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 2.5px solid transparent;
+	position: relative;
+}
+
+.questions .answer span:hover {
+	color: green;
+}
+
+.answer span img {
+	color: green;
+	font-size: 45px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 50px;
+}
+
+.count {
+	width: 200px;
+	height: auto;
+	margin: auto;
+}
+
+.count button {
+	padding: 10px;
+	margin: 25px 0;
+	outline: 0;
+	border: 1px solid #333;
+	background-color: #999;
+	cursor: pointer;
+	color: #fff;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.count p {
+	margin-bottom: 15px;
+	color: red;
+	font-weight: bold;
+}
